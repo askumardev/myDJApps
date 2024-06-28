@@ -23,9 +23,28 @@
 * python3 manage.py makemigrations
 * python3 manage.py migrate
 
-
-###
+### .ignore setup
 * touch .gitignore
 * echo '__pycache__/' >> .gitignore
 * git add .gitignore
 * git commit -m "Ignore __pycache__"
+
+### ipython3
+* cd code/myDJApps/myProject
+* (myDJApps) $ export DJANGO_SETTINGS_MODULE=myProject.settings
+* (myDJApps) $ ipython3
+
+* In [1]: import os
+
+* In [2]: import django
+
+* In [3]: os.environ['DJANGO_SETTINGS_MODULE'] = 'myProject.settings'
+
+* In [4]: django.setup()
+
+* In [5]: from tourmate.models import Tour
+
+* In [6]: to1 = Tour(origin="Japan", destination="India", number_of_nights=3, price=10000)
+
+* In [7]: to1.origin
+*Out[7]: 'Japan'
