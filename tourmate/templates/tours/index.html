@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TourMate</title>
     <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+    <link rel="icon" href="{% static 'images/logo.png' %}" type="image/icon type">
     
   </head>
 
   <body>
-    <h3>Tours in June'24</h3>
-    <script src="{% static 'js/script.js' %}"></script>
     <img src="{% static 'images/logo.png' %}" alt="Django Logo">
-    <ul>
+    <h3>Tours in June'24</h3>
+    <p>Sample content here...</p>
+    <script src="{% static 'js/script.js' %}"></script>    
+    <!--<ul>
       {% for tour in tours %}
         <li>{{tour}}</li>
       {% endfor %}
-    </ul>
+    </ul>>-->
   </body>
 </html>
