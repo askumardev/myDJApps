@@ -1,5 +1,5 @@
 # myDJApps
-### First time setup
+### First time setup in ubuntu
 * python3 --version
 * sudo apt install python3-pip
 * pip --version
