@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'tourmate.apps.TourmateConfig',
+    'myapp.apps.MyappConfig', # we can provide multiple apps created for example tourmate and myapp
 ]
 
 MIDDLEWARE = [

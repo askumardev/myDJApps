@@ -1,5 +1,5 @@
 # myDJApps
-
+### First time setup
 * python3 --version
 * sudo apt install python3-pip
 * pip --version
@@ -15,4 +15,8 @@
 * python manage.py startapp myapp
 * python manage.py runserver
 
+### after project and app creation
+#### cd code/myDJApps/myProject
+
 * pipenv shell
+* python manage.py runserver
