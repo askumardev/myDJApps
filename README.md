@@ -15,10 +15,17 @@
 * python manage.py startapp myapp
 * python manage.py runserver
 
-### after project and app creation
+### After project and app creation
 #### cd code/myDJApps/myProject
 
 * pipenv shell
 * python manage.py runserver
 * python3 manage.py makemigrations
 * python3 manage.py migrate
+
+
+###
+* touch .gitignore
+* echo '__pycache__/' >> .gitignore
+* git add .gitignore
+* git commit -m "Ignore __pycache__"
