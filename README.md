@@ -23,6 +23,9 @@
 * python3 manage.py makemigrations
 * python3 manage.py migrate
 
+### Super user
+* python manage.py createsuperuser
+
 ### .ignore setup
 * touch .gitignore
 * echo '__pycache__/' >> .gitignore
