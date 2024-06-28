@@ -14,3 +14,5 @@
 * cd myProject/
 * python manage.py startapp myapp
 * python manage.py runserver
+
+* pipenv shell
