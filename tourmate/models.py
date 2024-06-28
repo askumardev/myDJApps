@@ -16,6 +16,6 @@ class Tour(models.Model):
 
 # from tourmate.models import Tour
 # tour1 = Tour(origin="Japan", destination="India", number_of_nights=10, price=1500)
-# tour1.save
+# tour1.save()
 # tour2 = Tour(origin="Australia", destination="Srikanka", number_of_nights=7, price=2500)
-# tour2.save
+# tour2.save()
