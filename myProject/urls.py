@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('tourmate.urls'))
+    path('', include('tourmate.urls')),
+    path('mynewapp/', include('mynewapp.urls')),
 ]

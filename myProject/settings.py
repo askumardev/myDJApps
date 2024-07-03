@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tourmate.apps.TourmateConfig',
+    'mynewapp',
     'myapp.apps.MyappConfig', # we can provide multiple apps created for example tourmate and myapp
 ]
 
