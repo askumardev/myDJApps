@@ -1,0 +1,35 @@
+<!-- mynewapp/templates/mynewapp/books_index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books Index</title>
+</head>
+<body>
+    <h1>Books Index</h1>
+    <a href="{% url 'add_book' %}">
+        <button>Add a New Book</button>
+    </a>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Published Date</th>
+                <th>ISBN</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+                <tr>
+                    <td>{{ book.title }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.published_date }}</td>
+                    <td>{{ book.isbn }}</td>
+                    <td>Edit | Delete</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
